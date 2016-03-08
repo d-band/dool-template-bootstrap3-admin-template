@@ -1,0 +1,23 @@
+<h2 class="sub-header">Section title</h2>
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%for(var i=0;i<list.length;i++){var v=list[i];%>
+      <tr>
+        <%for(var j=0;j<v.length;j++){%>
+        <td><%=v[j]%></td>
+        <%}%>
+      </tr>
+      <%}%>
+    </tbody>
+  </table>
+</div>

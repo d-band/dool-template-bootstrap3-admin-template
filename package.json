@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Bootstrap 3 Responsive Admin Template",
   "main": "index.js",
+  "files": [
+    "./polyfill.js",
+    "./index.js",
+    "./index.less",
+    "./p/**/index.js",
+    "./p/**/index.less"
+  ],
   "scripts": {
     "test": "make test"
   },
@@ -21,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/d-band/AppName/issues"
   },
-  "homepage": "https://github.com/d-band/AppName#readme"
+  "homepage": "https://github.com/d-band/AppName#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "es5-shim": "^4.5.7",
+    "font-awesome": "^4.5.0",
+    "html5shiv": "^3.7.3",
+    "jquery": "^2.2.1",
+    "respond.js": "^1.4.2"
+  }
 }

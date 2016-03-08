@@ -1,0 +1,20 @@
+<div class="modal fade stick-up" id="J_globalDialog">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content-wrapper">
+      <div class="modal-content">
+        <div class="modal-header clearfix text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="ti-close"></i></button>
+          <strong><%=title%></strong>
+        </div>
+        <div class="modal-body">
+          <p class="no-margin"><%=msg%></p>
+        </div>
+        <div class="text-center mb20">
+        <%btns.forEach(function(btn, i){%>
+          <button type="button" class="J_button btn <%=btn.class_%> mw100" data-dismiss="modal" data-id="<%=i%>"><%=btn.text%></button>
+        <%})%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
