@@ -28,10 +28,10 @@ import tpl from './dialog.atpl';
 
   win.dialog = {
     alert: function(title, content, callback) {
-      show_dialog(title, content, 'alert', callback);
+      showDialog(title, content, 'alert', callback);
     },
     confirm: function(title, content, callback) {
-      show_dialog(title, content, 'confirm', callback);
+      showDialog(title, content, 'confirm', callback);
     }
   };
 }(typeof window !== "undefined" ? window : this));
