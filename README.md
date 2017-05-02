@@ -1,6 +1,8 @@
 Bootstrap 3 Responsive Admin Template
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/d-band/dool-template-bootstrap3-admin-template.svg)](https://greenkeeper.io/)
+
 ```
 # Install dev tool
 npm i dool -g
